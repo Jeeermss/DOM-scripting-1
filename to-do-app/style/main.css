@@ -1,0 +1,56 @@
+body {
+    text-align: left;
+    padding: 15px;
+}
+
+li.mdl-list__item {
+    float: left; 
+    clear: both;
+    padding-bottom: 5px;
+    height: 70px; 
+}
+
+button.mdl-button {
+    background: #3CB371; 
+    color: #ffffff;
+    border: 10px;
+    font-size: 15px; 
+    width: 80px; 
+    margin-left: 10px; 
+    font-family: Lato; sans-serif; 
+    cursor: pointer;
+}
+
+button:hover {
+    color: #3CB371;
+}
+
+label[for='newToDoText'] {
+    color: #3CB371;
+    font-weight: 500;
+    font-size: 16px;
+    background: #ffffff
+    margin: 30px; 
+    font-family: Lato; sans-serif; 
+}
+
+input#newToDoText {
+    float: left;
+    width: 300px;
+}
+
+li > input[type="checkbox"] {
+    margin: 0 10px; 
+    position: relative; 
+    padding: 20px; 
+}
+
+.deleteBtn {
+    background: #dcdcdc;
+    border: 10px; 
+    color: #3CB371;
+    width: 60px; 
+    height: 20px;
+    border-radius: 2px;
+}
+
